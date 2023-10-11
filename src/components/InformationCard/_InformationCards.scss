@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid;
+  border-radius: 5%;
+  height: 350px;
+  width: 225px;
+  margin: 1em;
+
+  &__img {
+    width: 100%;
+    display: block;
+    height: 60%;
+    margin: 0 auto;
+    z-index: -1;
+  }
+  &__info {
+    height: 30%;
+    width: auto;
+    margin: 0;
+  }
+  &__name {
+    height: 10%;
+    margin: 0;
+    padding-top: 0.5em;
+  }
+}
+
+li {
+  list-style: none;
+}

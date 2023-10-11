@@ -1,0 +1,23 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  background-color: whitesmoke;
+  margin: 0;
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    color: black;
+    margin: 0px;
+    border: none;
+    font-weight: 900;
+    z-index: 1;
+    font-size: 3.8rem;
+    width: 100%;
+    background-color: whitesmoke;
+  }
+}

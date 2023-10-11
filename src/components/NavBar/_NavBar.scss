@@ -1,0 +1,54 @@
+@import "../../scss/Variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital@0;1&family=Pixelify+Sans&family=Poppins&display=swap");
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    #353f35,
+    rgb(48, 102, 69),
+    #5f976b
+  );
+  width: 100%;
+  height: 70px;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 90%;
+    font-size: 1rem;
+    background-image: linear-gradient(
+      to right,
+      #353f35,
+      rgb(48, 102, 69),
+      #5f976b
+    );
+
+    &__item {
+      text-decoration: none;
+      color: $white;
+      font-family: "Pixelify Sans";
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    &__item:hover {
+      color: limegreen;
+    }
+  }
+  &__social {
+    display: flex;
+    &__icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-right: 10px;
+      font-size: 1.4rem;
+      color: black;
+    }
+  }
+}
